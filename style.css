@@ -6,7 +6,7 @@ body {
   background: green;
   width: fit-content;
   height: 130px;
-  padding: 50px;
+  padding: 25px;
   margin: 10px auto 0;
   text-align: center;
   border-radius: 10px;
@@ -19,7 +19,7 @@ body {
 }
 
 button span {
-  font-size: 50px;
+  font-size: 40px;
   border-radius: 35px;
 }
 
@@ -27,7 +27,7 @@ button p {
   margin: 0 0 30px;
   font-weight: 900;
   color: azure;
-  font-size: 1.23rem;
+  font-size: 1.1rem;
 }
 
 .display {
@@ -54,16 +54,16 @@ button p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 50px 30px;
+  padding: 40px 50px;
   margin: 0 auto;
   width: fit-content;
-  gap: 10px;
+  gap: 20px;
 }
 
 .scoresContainer div {
   background: green;
-  width: 80px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
