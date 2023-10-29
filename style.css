@@ -74,6 +74,12 @@ button p {
   color: white;
 }
 
+h1 {
+  color: red;
+  text-align: center;
+  font-family: cursive;
+}
+
 /* @media (width: 400px) {
   .scores {margin: 30px auto}
 }*/
