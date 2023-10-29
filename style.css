@@ -1,0 +1,79 @@
+body {
+    background: rgb(20, 20, 20);
+  }
+  
+.container {
+  background: green;
+  width: fit-content;
+  height: 130px;
+  padding: 50px;
+  margin: 10px auto 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.container button {
+  background: none;
+  border: none;
+  margin-right: 8px;
+}
+
+button span {
+  font-size: 50px;
+  border-radius: 35px;
+}
+
+button p {
+  margin: 0 0 30px;
+  font-weight: 900;
+  color: azure;
+  font-size: 1.23rem;
+}
+
+.display {
+  background: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  margin: 20px auto;
+  font-weight: 900;
+  color: white;
+  border-radius: 10px;
+}
+
+.remark {
+  padding: 7px 25px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 45px 5px red /*, 0px 0px 45px 5px white, 10px 30px 45px 5px white */;
+}
+
+.scoresContainer {
+  background: rgb(255, 255, 200);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 30px;
+  margin: 0 auto;
+  width: fit-content;
+  gap: 10px;
+}
+
+.scoresContainer div {
+  background: green;
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 2rem;
+  padding: 10px;
+  color: white;
+}
+
+/* @media (width: 400px) {
+  .scores {margin: 30px auto}
+}*/
